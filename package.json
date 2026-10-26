@@ -1,0 +1,25 @@
+{
+  "name": "lumea-lightstudio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "wgpu-matrix": "^3.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@webgpu/types": "^0.1.74",
+    "raw-loader": "^4.0.2",
+    "typescript": "^5.9.3"
+  }
+}
